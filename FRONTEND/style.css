@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial, Helvetica', sans-serif;
+}
+body {
+    min-height: 100vh;
+    background: #111;                   
+}
+.hero {
+    position: relative;
+    min-height: 100vh;                 
+    background: url(https://cdn-blog.superprof.com/blog_be/wp-content/uploads/2018/03/mains-homme-clavier-ordinateur-portable-touches.jpg)center/cover no-repeat;
+    flex-direction: column;
+    color: #fff;
+    overflow: hidden;
+}
+.nav-bar {
+    position: fixed;
+    display: flex;
+    z-index: 2;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    padding: 20px 100px;  
+}  
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+.logo-box {
+    width: 52px;
+    height: 52px;
+    background: #fff;
+    color: #111;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2px;
+    border-radius: 6px;
+    font-size: 18px;
+}
+.logo-text {
+    display: flex;
+    flex-direction: column;
+    line-height: 1.1;
+}
